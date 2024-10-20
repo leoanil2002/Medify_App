@@ -1,0 +1,68 @@
+.container-offer-slider {
+  height: 22rem;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.offer-slider {
+  margin-left: 6rem;
+  margin-right: 6rem;
+  padding-top: 6rem;
+}
+
+.offer-slider .swiper-pagination {
+  position: absolute;
+  bottom: 2rem; /* Adjust the value to move the pagination higher or lower */
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.offer-slider .swiper-pagination-bullet {
+  background: rgba(188, 216, 233, 1); /* Customize the bullet color */
+  opacity: 1;
+}
+
+.offer-slider .swiper-pagination-bullet-active {
+  background: rgba(42, 167, 255, 1); /* Customize the active bullet color */
+}
+.offer-slider .swiper-slide img {
+  width: 100%; /* or set a specific width, e.g., 200px */
+  height: auto; /* maintain aspect ratio */
+}
+
+.mySwiper {
+  height: 15rem;
+  width: 20rem;
+}
+.mySwiper img {
+  width: 100%;
+}
+@media (max-width: 900px) {
+  .mySwiper {
+    height: 15rem;
+    width: 14rem;
+  }
+  .mySwiper img {
+    width: 80%;
+  }
+  .offer-slider {
+    margin-left: 3rem;
+    margin-right: 2rem;
+    padding-top: 2rem;
+  }
+  .container-offer-slider {
+    height: 16rem;
+    width: 100%;
+    position: relative;
+  }
+  .swiper-slide {
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+  }
+  .mySwiper {
+    width: 20rem !important;
+  }
+}

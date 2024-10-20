@@ -1,0 +1,30 @@
+.search-hospital-box {
+  width: 80%;
+  background-color: #ffffff;
+  position: absolute;
+  top: 400px;
+  right: 135px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 35px 0px rgba(16, 40, 81, 0.11);
+}
+@media (max-width: 900px) {
+  .search-hospital-box {
+    top: 330px;
+    right: 85px;
+    position: absolute;
+  }
+}
+@media (max-width: 600px) {
+  .search-hospital-box {
+    top: 400px;
+    right: 47px;
+    position: absolute;
+  }
+}
+@media (max-width: 450px) {
+  .search-hospital-box {
+    top: 430px;
+    right: 42px;
+    position: absolute;
+  }
+}

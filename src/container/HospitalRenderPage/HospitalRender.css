@@ -1,0 +1,45 @@
+.hospital-render-top {
+  height: 112px;
+  background: linear-gradient(91.75deg, #2aa7ff 1.4%, #0c8ce6 100.57%);
+  border-end-start-radius: 20px;
+  border-end-end-radius: 16px;
+}
+.hospital-render-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.hospital-render-data {
+  display: flex;
+  gap: 60px;
+}
+.hospital-render-list {
+  width: 69%;
+}
+.hospital-render-img {
+  width: 300px;
+  height: 220px;
+}
+.hospital-render-img img {
+  height: 100%;
+  width: 100%;
+}
+.hospital-main {
+  background: linear-gradient(
+    81deg,
+    #e7f0ff 9.01%,
+    rgba(232, 241, 255, 0.47) 89.11%
+  );
+}
+.hospital-render-bottom {
+  padding-top: 12rem;
+  padding-bottom: 4rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-container {
+  position: relative;
+}

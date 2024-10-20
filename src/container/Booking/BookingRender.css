@@ -1,0 +1,116 @@
+.hospital-main {
+  background: linear-gradient(
+    81deg,
+    #e7f0ff 9.01%,
+    rgba(232, 241, 255, 0.47) 89.11%
+  );
+}
+.hospital-render-top {
+  height: 112px;
+  background: linear-gradient(91.75deg, #2aa7ff 1.4%, #0c8ce6 100.57%);
+  border-end-start-radius: 20px;
+  border-end-end-radius: 16px;
+}
+.search-hospital-container-book {
+  position: absolute;
+  top: 50px;
+  left: 9vw;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  width: 100%;
+  box-shadow: 6px 6px 35px 0px rgba(16, 40, 81, 0.11);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  justify-content: center;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-bottom: 20px; */
+  flex-direction: row;
+  gap: 20px;
+}
+.search-bar-ele {
+  width: 30vw !important;
+}
+.search-button {
+  padding: 12px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 12%;
+}
+.search-input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  width: 150px;
+  font-size: 14px;
+}
+
+.select-state {
+  width: 100%;
+}
+
+.select-city {
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .search-bar {
+    flex-direction: column;
+  }
+  .search-bar-ele {
+    width: 55vw !important;
+  }
+  .search-button {
+    width: 55vw;
+  }
+}
+
+.hospital-render-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.hospital-render-data {
+  display: flex;
+  gap: 60px;
+}
+.hospital-render-list {
+  width: 69%;
+}
+.hospital-render-img {
+  width: 300px;
+  height: 220px;
+}
+.hospital-render-img img {
+  height: 100%;
+  width: 100%;
+}
+.hospital-render-bottom {
+  padding-top: 12rem;
+  padding-bottom: 4rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-container {
+  position: relative;
+}

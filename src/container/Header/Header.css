@@ -1,0 +1,49 @@
+.header {
+  background: rgba(42, 167, 255, 1);
+  color: white;
+  font-size: 14px;
+  height: 2.5rem;
+}
+.car1 {
+  background-color: rgb(246, 255, 0);
+}
+.nav-link:active,
+.nav-link:hover {
+  color: rgba(42, 168, 255, 1) !important;
+}
+.navbar {
+  height: 6rem !important;
+  background: linear-gradient(
+    81deg,
+    #e7f0ff 9.01%,
+    rgba(232, 241, 255, 0.47) 89.11%
+  );
+}
+.active {
+  color: rgba(42, 168, 255, 1) !important;
+}
+.car {
+  background-color: white;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 444;
+  height: 100vh;
+  color: aquamarine !important;
+}
+@media (max-width: 900px) {
+  .header {
+    font-size: 14px;
+    height: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+.btn-close {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: black;
+}

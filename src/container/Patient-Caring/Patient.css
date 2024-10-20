@@ -1,0 +1,135 @@
+.patient {
+  height: 33rem;
+  width: 100%;
+  background: linear-gradient(
+    81deg,
+    #e7f0ff 9.01%,
+    rgba(232, 241, 255, 0.47) 89.11%
+  );
+}
+.patient-cont {
+  display: flex;
+  padding-top: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  gap: 2rem;
+  /* padding-bottom: 1rem; */
+  height: 27rem;
+  width: 100%;
+}
+.patient-img-cont {
+  width: 40vw;
+  height: 25rem;
+}
+.patient-img-cont img {
+  width: 92%;
+  height: 100%;
+}
+
+.patient-content-cont {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+
+  gap: 16px;
+  padding-top: 2rem;
+}
+.patient-content-head {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 27px;
+  color: rgba(42, 167, 255, 1);
+}
+.patient {
+  font-size: 48px;
+  font-weight: 600;
+  color: rgba(27, 60, 116, 1);
+  margin-right: 20px;
+}
+.caring {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 67px;
+  color: rgba(42, 167, 255, 1);
+}
+.patient-content-info {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 29px;
+  color: rgba(119, 130, 157, 1);
+  width: 80%;
+}
+.patient-content-list {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+}
+.list-items {
+  margin-top: 10px;
+}
+.list-items span {
+  padding-right: 10px;
+}
+.patient-content-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 900px) {
+  .patient-cont {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    gap: 2rem;
+    /* padding-bottom: 1rem; */
+    height: 27rem;
+    width: 100%;
+  }
+  .patient {
+    height: 52rem;
+    width: 100%;
+  }
+  .patient-content-info {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    padding-right: 0;
+  }
+  .patient {
+    font-size: 40px;
+    font-weight: 600;
+    margin-right: 20px;
+  }
+  .caring {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 55px;
+  }
+  .patient-content-cont {
+    width: 70vw;
+
+    gap: 16px;
+  }
+  .patient-img-cont {
+    width: 60vw;
+    height: 25rem;
+  }
+  .patient-content-list {
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 20px;
+  }
+}
+@media (max-width: 550px) {
+  .patient-cont {
+    padding-top: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+    gap: 1rem;
+    /* padding-bottom: 1rem; */
+  }
+  .patient-img-cont {
+    width: 70vw;
+    height: 25rem;
+  }
+}
